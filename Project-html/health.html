@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Health Page</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+    float: left;
+    width: 30%;
+    height: 300px; /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    float: left;
+    padding: 0px;
+    width: 20%;
+    background-color: #f1f1f1;
+    height: 1300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.cat{
+float:right;
+padding: 0px ;
+ font-size: 15px;
+color: red;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
+</style>
+</head>
+<body>
+
+
+
+<header>
+  <h2>Health</h2>
+<a class="cat" href=#categories> category</a>
+
+</header>
+
+<section>
+
+
+ <article>
+
+</article>
+<table>
+<tr>
+<td> items </td>
+<td> description</td>
+<td> Add to cart</td>
+</tr>
+
+
+<tr>
+<td><img src= "colgate.jpg" alt="colgate"  width="200" height="200"></td>
+<td> Colgate- Active Salt (Value Pack)<br> Price is 120rs </td>
+<td><img src= "addtocart.jpg"   width="100" height="100"></td>
+<td>
+</tr>
+
+
+<tr>
+<td><img src= "firstaid.jpg" alt="first aid"  width="200" height="200"></td>
+<td> Johnson's First Aid Pack <br> Price is 150rs </td>
+<td><img src= "addtocart.jpg"   width="100" height="100"></td>
+</tr>
+
+<tr> 
+<td><img src= "patanjaliPanchak.jpg" alt="Panchak "  width="200" height="200"></td>
+<td> Patanjali- Panchak<br> Price is 250rs </td>
+<td><img src= "addtocart.jpg"  width="100" height="100"></td>
+</tr>
+
+<tr> 
+<td><img src= "LorealHair.jpg" alt="loreal oil "  width="200" height="200"></td>
+<td> Loreal Paris Total Repairs<br> Multi-Restorative Dry Oil <br> Price is 20rs </td>
+<td><img src= "addtocart.jpg"  width="100" height="100"></td>
+</tr>
+
+
+<tr> 
+<td><img src= "TopCare.jpg" alt="topcare selenium "  width="200" height="200"></td>
+<td>TopCare- Selenium 200mcg <br>Clinically Studied dose<br> Price is 50rs </td>
+<td><img src= "addtocart.jpg"  width="100" height="100"></td>
+</tr>
+
+<tr> 
+<td><img src= "johnsoncottonbuds.jpg" alt="cotton buds"  width="200" height="200"></td>
+<td>Johnson's cotton buds- <br>pure cotton buds(100 buds) <br> Price is 50rs </td>
+<td><img src= "addtocart.jpg"  width="100" height="100"></td>
+</tr>
+
+
+</table>
+</section>
+<footer>
+  <p>Footer</p>
+</footer>
+</body>
+</html>
+
+       
